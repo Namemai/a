@@ -3511,24 +3511,30 @@ def bot(op):
                                        except:
                                            pass
 
-                        elif cmd == "cannibalbot":
+                        elif cmd == "s":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                start = time.time()
-                               cl.sendMessage(msg.to, "[🤘CANNIBAL™️].")
+                               cl.sendMessage(msg.to, "[CANNIBAL™️].")
                                elapsed_time = time.time()
-                               ki.sendMessage(msg.to, "╚⚕️SIAP NDAAN╗\n╚CANNIBAL™️╮╗".format(str(elapsed_time)))
-                               kk.sendMessage(msg.to, "╚⚕️SIAP NDAAN╗\n╚CANNIBAL™️╮╗".format(str(elapsed_time)))
-                               kc.sendMessage(msg.to, "╚⚕️SIAP NDAAN╗\n╚CANNIBAL™️╮╗".format(str(elapsed_time)))
-                               sw.sendMessage(msg.to, "[☯️KOMPLIT]")
-                               cl.sendMessage(msg.to, "╚AMAN╗\n╚BOS😁╮╗")
+                               ki.sendMessage(msg.to, "╚ok╮╗".format(str(elapsed_time)))
+                               kk.sendMessage(msg.to, "╚ok╮╗".format(str(elapsed_time)))
+                               kc.sendMessage(msg.to, "╚ok╮╗".format(str(elapsed_time)))
+                               kb.sendMessage(msg.to, "╚ok╮╗".format(str(elapsed_time)))
+                               kd.sendMessage(msg.to, "╚ok╮╗".format(str(elapsed_time)))
+                               ke.sendMessage(msg.to, "╚ok╮╗".format(str(elapsed_time)))
+                               kf.sendMessage(msg.to, "╚ok╮╗".format(str(elapsed_time)))
 
-                        elif cmd == "reinvite":
+                        elif cmd == "pp":
                             if msg._from in admin:
                                 G = cl.getGroup(msg.to)
                                 ki.leaveGroup(msg.to)
                                 kk.leaveGroup(msg.to)
                                 kc.leaveGroup(msg.to)
+                                kb.leaveGroup(msg.to)
+                                kd.leaveGroup(msg.to)
+                                ke.leaveGroup(msg.to)
+                                kf.leaveGroup(msg.to)
                                 sw.leaveGroup(msg.to)
                                 G = cl.getGroup(msg.to)
                                 ginfo = cl.getGroup(msg.to)
@@ -3539,6 +3545,10 @@ def bot(op):
                                 ki.acceptGroupInvitationByTicket(msg.to,Ticket)
                                 kk.acceptGroupInvitationByTicket(msg.to,Ticket)
                                 kc.acceptGroupInvitationByTicket(msg.to,Ticket)
+                                kb.acceptGroupInvitationByTicket(msg.to,Ticket)
+                                kd.acceptGroupInvitationByTicket(msg.to,Ticket)
+                                ke.acceptGroupInvitationByTicket(msg.to,Ticket)
+                                kf.acceptGroupInvitationByTicket(msg.to,Ticket)
                                 sw.acceptGroupInvitationByTicket(msg.to,Ticket)
                                 G = ki.getGroup(msg.to)
                                 ki.updateGroup(G)
