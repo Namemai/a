@@ -28,55 +28,55 @@ cl.log("Auth Token : " + str(cl.authToken))
 channel = LineChannel(cl,cl.server.CHANNEL_ID['LINE_TIMELINE'])
 cl.log("Channel Access Token : " + str(channel.channelAccessToken))
 
-ki = LineClient("email","mai06555mai")
+ki = LineClient("hhm34248@eoopy.com","mai06555mai")
 ki.log("Auth Token : " + str(ki.authToken))
 channel1 = LineChannel(ki,ki.server.CHANNEL_ID['LINE_TIMELINE'])
 ki.log("Channel Access Token : " + str(channel1.channelAccessToken))
 
 
-kk = LineClient("email","mai06555mai")
+kk = LineClient("lad34018@eoopy.com","mai06555mai")
 kk.log("Auth Token : " + str(kk.authToken))
 channel2 = LineChannel(kk,kk.server.CHANNEL_ID['LINE_TIMELINE'])
 kk.log("Channel Access Token : " + str(channel2.channelAccessToken))
 
 
-kc = LineClient("email","mai06555mai")
+kc = LineClient("tvm12228@zzrgg.com","mai06555mai")
 kc.log("Auth Token : " + str(kc.authToken))
 channel3 = LineChannel(kc,kc.server.CHANNEL_ID['LINE_TIMELINE'])
 kc.log("Channel Access Token : " + str(channel3.channelAccessToken))
 
 
-kb = LineClient("email","mai06555mai")
+kb = LineClient("sps52529@eoopy.com","mai06555mai")
 kb.log("Auth Token : " + str(kb.authToken))
 channel4 = LineChannel(kb,kb.server.CHANNEL_ID['LINE_TIMELINE'])
 kb.log("Channel Access Token : " + str(channel3.channelAccessToken))
 
 
-kd = LineClient("email","mai06555mai")
+kd = LineClient("lnw89314@bcaoo.com","mai06555mai")
 kd.log("Auth Token : " + str(kd.authToken))
 channel5 = LineChannel(kd,kd.server.CHANNEL_ID['LINE_TIMELINE'])
 kd.log("Channel Access Token : " + str(channel5.channelAccessToken))
 
 
-ke = LineClient("email","mai06555mai")
+ke = LineClient("klb97756@bcaoo.com","mai06555mai")
 ke.log("Auth Token : " + str(ke.authToken))
 channel6 = LineChannel(ke,ke.server.CHANNEL_ID['LINE_TIMELINE'])
 ke.log("Channel Access Token : " + str(channel6.channelAccessToken))
 
 
-kf = LineClient("email","mai06555mai")
+kf = LineClient("fvy82102@zzrgg.com","mai06555mai")
 kf.log("Auth Token : " + str(kf.authToken))
 channel7 = LineChannel(kf,kf.server.CHANNEL_ID['LINE_TIMELINE'])
 kf.log("Channel Access Token : " + str(channel7.channelAccessToken))
 
 
-kg = LineClient("email","mai06555mai")
+kg = LineClient("yip80399@eoopy.com","mai06555mai")
 kg.log("Auth Token : " + str(kg.authToken))
 channel8 = LineChannel(kg,kg.server.CHANNEL_ID['LINE_TIMELINE'])
 kg.log("Channel Access Token : " + str(channel8.channelAccessToken))
 
 
-sw = LineClient("email","mai06555mai")
+sw = LineClient("rdd49652@zzrgg.com","mai06555mai")
 sw.log("Auth Token : " + str(sw.authToken))
 channel11 = LineChannel(sw,sw.server.CHANNEL_ID['LINE_TIMELINE'])
 sw.log("Channel Access Token : " + str(channel11.channelAccessToken))
