@@ -2122,7 +2122,7 @@ def bot(op):
                                                 kg.kickoutFromGroup(op.param1,[op.param2])
                                             except:
                                                 try:
-                                                    cl.cancelGroupInvitation(op.param1,[op.param3]))
+                                                    cl.cancelGroupInvitation(op.param1,[op.param3])
                                                     cl.kickoutFromGroup(op.param1,[op.param2])
                                                 except:
                                                     pass
