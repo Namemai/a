@@ -1523,13 +1523,13 @@ def bot(op):
                                                     try:
                                                         cl.inviteIntoGroup(op.param1,[Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid])
                                                         ki.acceptGroupInvitation(op.param1)
-							kk.acceptGroupInvitation(op.param1)
-							kc.acceptGroupInvitation(op.param1)
-							kb.acceptGroupInvitation(op.param1)
-							kd.acceptGroupInvitation(op.param1)
-							ke.acceptGroupInvitation(op.param1)
-							kf.acceptGroupInvitation(op.param1)
-							kg.acceptGroupInvitation(op.param1)
+                                                        kk.acceptGroupInvitation(op.param1)
+                                                        kc.acceptGroupInvitation(op.param1)
+                                                        kb.acceptGroupInvitation(op.param1)
+                                                        kd.acceptGroupInvitation(op.param1)
+                                                        ke.acceptGroupInvitation(op.param1)
+                                                        kf.acceptGroupInvitation(op.param1)
+                                                        kg.acceptGroupInvitation(op.param1)
                                                     except:
                                                         pass
                 return
