@@ -2824,7 +2824,6 @@ def bot(op):
 "╰╯╰╯╰┻┻╯╰┻━╮┣━╮┣┻╯\n"
 "╱╱╱╱╱╱╱╱╱╭━╯┣━╯┃\n"
 "╱╱╱╱╱╱╱╱╱╰━━┻━━╯\n"
-                               kc.sendMessage(msg.to,
 ">>>Ⓑⓨⓔ_Ⓑⓨⓔ ⒼⒸ Ⓛⓐⓚⓝⓐⓣ>><\nⒹⓝⓓⓐⓜ Ⓒⓐⓡⓘ Ⓚⓜⓘ\n<<<<<<<<<>>\nhttp://line.me/D")
                                cl.sendMessage(msg.to, None, contentMetadata={"STKID":"24893204","STKPKGID":"1790925","STKVER":"1"}, contentType=7)
                                targets = []
