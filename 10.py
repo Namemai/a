@@ -25,12 +25,12 @@ import youtube_dl
 
 cl = LineClient("06555mai@gmail.com","mai06555mai")
 cl.log("Auth Token : " + str(cl.authToken))
-channel = LineChannel(cl,cl.server.CHANNEL_ID['LINE_TIMELINE'])
+channel = LineChannel(cl)
 cl.log("Channel Access Token : " + str(channel.channelAccessToken))
 
 ki = LineClient("hhm34248@eoopy.com","mai06555mai")
 ki.log("Auth Token : " + str(ki.authToken))
-channel1 = LineChannel(ki,ki.server.CHANNEL_ID['LINE_TIMELINE'])
+channel1 = LineChannel(ki)
 ki.log("Channel Access Token : " + str(channel1.channelAccessToken))
 
 
@@ -4198,7 +4198,7 @@ def bot(op):
                         elif cmd == "speed" or cmd == "sp":
                           if wait["selfbot"] == True:
                             if msg._from in admin:                              
-                               cl.sendMessage(msg.to, sender, "⇨sᴘᴇᴇᴅ ᴜᴘ\nᴜsᴇʀ:","")
+                               sendMention1(msg.to, sender, "⇨sᴘᴇᴇᴅ ᴜᴘ\nᴜsᴇʀ:","")
                                start = time.time() / 3 
                                time.sleep(0.00002)  
                                elapsed_time = time.time() / 3 - start
