@@ -23,7 +23,7 @@ import youtube_dl
 #import pyimgflip
 
 
-cl = LineClient("eriic077@gmail.com","ssaa1122")
+cl = LineClient("06555mai@gmail.com","ssaa1122")
 cl.log("Auth Token : " + str(cl.authToken))
 channel1 = LineChannel(cl,cl.server.CHANNEL_ID['LINE_TIMELINE'])
 cl.log("Channel Access Token : " + str(channel1.channelAccessToken))
