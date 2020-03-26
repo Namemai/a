@@ -68,7 +68,7 @@ channel7 = LineChannel(kf,kf.server.CHANNEL_ID['LINE_TIMELINE'])
 kf.log("Channel Access Token : " + str(channel7.channelAccessToken))
 
 
-sw = LineClient("yip80399@eoopy.com","mai06555mai"
+sw = LineClient()
 sw.log("Auth Token : " + str(sw.authToken))
 channel8 = LineChannel(sw,sw.server.CHANNEL_ID['LINE_TIMELINE'])
 sw.log("Channel Access Token : " + str(channel8.channelAccessToken))
