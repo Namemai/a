@@ -50,7 +50,7 @@ kc.log("Channel Access Token : " + str(channel3.channelAccessToken))
 kb = LineClient("ksamr088@gmail.com","ssaa1122")
 kb.log("Auth Token : " + str(kb.authToken))
 channel4 = LineChannel(kb)
-kb.log("Channel Access Token : " + str(channel3.channelAccessToken))
+kb.log("Channel Access Token : " + str(channel4.channelAccessToken))
 
 
 kd = LineClient("ksamr077@gmail.com","ssaa1122")
