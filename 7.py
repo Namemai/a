@@ -72,7 +72,6 @@ sw = LineClient("yip80399@eoopy.com","mai06555mai"
 sw.log("Auth Token : " + str(sw.authToken))
 channel8 = LineChannel(sw,sw.server.CHANNEL_ID['LINE_TIMELINE'])
 sw.log("Channel Access Token : " + str(channel8.channelAccessToken))
-
 print ("LOGIN SUKSES SEMUA\n")
 print ("\nBOT MULAI BERJALAN......")
 
