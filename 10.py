@@ -5704,7 +5704,7 @@ def bot(op):
                                    sw.findAndAddContactsByMid(Hmid)                                
                                    sw.findAndAddContactsByMid(Zmid) 
 
-                        elif 'js ' in msg.text:
+                         elif 'js ' in msg.text:
                            if msg._from in admin:
                               spl = msg.text.replace('js ','')
                               if spl == 'on':
