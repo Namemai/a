@@ -36,50 +36,51 @@ ki.log("Channel Access Token : " + str(channel1.channelAccessToken))
 
 kk = LineClient("lad34018@eoopy.com","mai06555mai")
 kk.log("Auth Token : " + str(kk.authToken))
-channel2 = LineChannel(kk,kk.server.CHANNEL_ID['LINE_TIMELINE'])
+channel2 = LineChannel(kk)
 kk.log("Channel Access Token : " + str(channel2.channelAccessToken))
 
 
 kc = LineClient("tvm12228@zzrgg.com","mai06555mai")
 kc.log("Auth Token : " + str(kc.authToken))
-channel3 = LineChannel(kc,kc.server.CHANNEL_ID['LINE_TIMELINE'])
+channel3 = LineChannel(kc)
 kc.log("Channel Access Token : " + str(channel3.channelAccessToken))
 
 
 kb = LineClient("sps52529@eoopy.com","mai06555mai")
 kb.log("Auth Token : " + str(kb.authToken))
-channel4 = LineChannel(kb,kb.server.CHANNEL_ID['LINE_TIMELINE'])
+channel4 = LineChannel(kb)
 kb.log("Channel Access Token : " + str(channel3.channelAccessToken))
 
 
 kd = LineClient("lnw89314@bcaoo.com","mai06555mai")
 kd.log("Auth Token : " + str(kd.authToken))
-channel5 = LineChannel(kd,kd.server.CHANNEL_ID['LINE_TIMELINE'])
+channel5 = LineChannel(kd)
 kd.log("Channel Access Token : " + str(channel5.channelAccessToken))
 
 
 ke = LineClient("klb97756@bcaoo.com","mai06555mai")
 ke.log("Auth Token : " + str(ke.authToken))
-channel6 = LineChannel(ke,ke.server.CHANNEL_ID['LINE_TIMELINE'])
+channel6 = LineChannel(ke)
 ke.log("Channel Access Token : " + str(channel6.channelAccessToken))
 
 
 kf = LineClient("fvy82102@zzrgg.com","mai06555mai")
 kf.log("Auth Token : " + str(kf.authToken))
-channel7 = LineChannel(kf,kf.server.CHANNEL_ID['LINE_TIMELINE'])
+channel7 = LineChannel(kf)
 kf.log("Channel Access Token : " + str(channel7.channelAccessToken))
 
 
 kg = LineClient("yip80399@eoopy.com","mai06555mai")
 kg.log("Auth Token : " + str(kg.authToken))
-channel8 = LineChannel(kg,kg.server.CHANNEL_ID['LINE_TIMELINE'])
+channel8 = LineChannel(kg)
 kg.log("Channel Access Token : " + str(channel8.channelAccessToken))
 
 
 sw = LineClient("rdd49652@zzrgg.com","mai06555mai")
 sw.log("Auth Token : " + str(sw.authToken))
-channel11 = LineChannel(sw,sw.server.CHANNEL_ID['LINE_TIMELINE'])
+channel11 = LineChannel(sw)
 sw.log("Channel Access Token : " + str(channel11.channelAccessToken))
+
 print("---LOGIN SUCCES BOSS-")
 
 poll = LinePoll(cl)
@@ -548,7 +549,7 @@ def help():
                   "「☯️] " + key + "ʀᴇsᴇᴛᴋᴇʏ\n" + \
                   "「☯️] " + key + "ʀᴇғʀᴇsʜ\n" + \
                   "「☯️] " + key + "Restart\n"+ \
-                  "「☯️] [CANNIBAL ™️]「☯️]"
+                  "「☯️] [mai ™️]「☯️]"
 
     return helpMessage
 
@@ -587,7 +588,7 @@ def help1():
                   "[☯️]" + key + "ᴜᴘᴅᴀᴛᴇɢʀᴜᴘ\n" + \
                   "[☯️]" + key + "ɢɪғᴛ:「ᴍɪᴅ ᴋᴏʀʙᴀɴ」「ᴊᴜᴍʟᴀʜ」\n" + \
                   "[☯️]" + key + "sᴘᴀᴍ:「ᴍɪᴅ ᴋᴏʀʙᴀɴ」「ᴊᴜᴍʟᴀʜ」\n" + \
-                  "「☯️] ʙʏ: CANNIBAL™️\n" + \
+                  "「☯️] ʙʏ: mai™️\n" + \
                   "  Creator:  line.me/D"
                   
     return helpMessage1
@@ -620,7 +621,7 @@ def help2():
                   "「☯️]  " + key + "sᴇᴛ ʀᴇsᴘᴏɴ:「ᴛᴇxᴛ」\n" + \
                   "「☯️]  " + key + "sᴇᴛ ʟᴇᴀᴠᴇ:「ᴛᴇxᴛ」\n" + \
                   "「☯️]  " + key + "sᴇᴛ ᴡᴇʟᴄᴏᴍᴇ:「ᴛᴇxᴛ」\n" + \
-                  " [CANNIBAL™️]" + \
+                  "mai\n" + \
                   "Creator:  line.me/D"
 
     return helpMessage2
@@ -667,7 +668,7 @@ def help3():
                   "「☯️」 " + key + "Get-lirik「Judul Lagu」\n" + \
                   "「☯️」 " + key + "Get-instagram「User Name」\n" + \
                   "「☯️」 " + key + "Get-date「tgl-bln-thn」\n" + \
-                  "ʙʏ: CANNIBAL™️\n" + \
+                  "ʙʏ: mai™️\n" + \
                   "  Creator:  line.me/D"
 
     return helpMessage3
