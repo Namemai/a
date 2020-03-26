@@ -5703,26 +5703,6 @@ def bot(op):
                                    sw.findAndAddContactsByMid(Gmid)
                                    sw.findAndAddContactsByMid(Hmid)                                
                                    sw.findAndAddContactsByMid(Zmid) 
-
-                         elif 'js ' in msg.text:
-                           if msg._from in admin:
-                              spl = msg.text.replace('js ','')
-                              if spl == 'on':
-                                  if msg.to in protectantijs:
-                                       msgs = "Anti JS sudah aktif"
-                                  else:
-                                       protectantijs.append(msg.to)
-                                       ginfo = cl.getGroup(msg.to)
-                                       msgs = "Anti JS Diaktifkan\nDi Group : " +str(ginfo.name)
-                                  cl.sendMessage(msg.to, "「Diaktifkan」\n" + msgs)
-                              elif spl == 'off':
-                                    if msg.to in protectantijs:
-                                         protectantijs.remove(msg.to)
-                                         ginfo = cl.getGroup(msg.to)
-                                         msgs = "Anti JS Dinonaktifkan\nDi Group : " +str(ginfo.name)
-                                    else:
-                                         msgs = "Anti JS Sudah Tidak Aktif"
-                                    cl.sendMessage(msg.to, "「Dinonaktifkan」\n" + msgs)
                                     
                         elif 'G ' in msg.text:
                            if msg._from in admin:
