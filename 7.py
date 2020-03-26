@@ -2768,7 +2768,6 @@ def bot(op):
                                 path = cl.getContact(msg.contentMetadata["mid"]).picturePath
                                 image = 'http://dl.profile.line.naver.jp'+path
                                 cl.sendImageWithURL(msg.to, image)
-                                cl.sendMessage(msg.to, None, contentMetadata={"STKID":"52002768","STKPKGID":"11537","STKVER":"1"}, contentType=7)
                                 
                         elif cmd == "gue":                       	
                     	    if msg._from in owner or msg._from in admin or msg._from in staff: 
@@ -3338,30 +3337,6 @@ def bot(op):
                                gs = kcgetGroup(msg.to)
                                gs = sw.getGroup(msg.to)
                                ki.sendMessage(msg.to,"ASSALAMUALAIKUM")
-                               ki.sendMessage(msg.to,"Loha\n"
- "ASSALAMUALAIKUM\n"
-"  ╭━CANNIBAL™️\n"
-"  ╰╮┏━┳┳┓┏┳┳┓┏┳┳┳┓\n"
-"  ┏┻╋━┻┻┫┣┻┻┫┣┻┻┻┫\n"
-"  ┃HLO▪┃KMI DTANG LGI┃\n"
-"  ┗ⓞⓞ┻┻ⓞ━━ⓞ┻┻ⓞ━╯\n"
-"UNTUK MENGGUSUR\nROOM KALIAN\n"
-"..  (҂`_´)\n"
-   " <,︻╦̵̵̿╤━ ҉     ~  •"
-"█۞███████]▄▄▄▄▄▄▃●●\n"
-"▂▄▅█████████▅▄▃▂…"
-"[██████████████████]\n"
-"◥⊙⊙▲⊙▲⊙▲⊙▲⊙▲⊙\n"
-"╭━╮╭━╮\n"
-"┃┃╰╯┃┃\n"
-"┃╭╮╭╮┣┳━╮╭━━┳━━┳┳━╮\n"
-"┃┃┃┃┃┣┫╭╮┫╭╮┃╭╮┣┫╭╯\n"
-"┃┃┃┃┃┃┃┃┃┃╰╯┃╰╯┃┃┃\n"
-"╰╯╰╯╰┻┻╯╰┻━╮┣━╮┣┻╯\n"
-"╱╱╱╱╱╱╱╱╱╭━╯┣━╯┃\n"
-"╱╱╱╱╱╱╱╱╱╰━━┻━━╯\n"
-		"━━━━━━━━━━━━━━━\n"
-">>>Ⓑⓨⓔ_Ⓑⓨⓔ ⒼⒸ Ⓛⓐⓚⓝⓐⓣ>><\nⒹⓝⓓⓐⓜ Ⓒⓐⓡⓘ Ⓚⓜⓘ\n<<<")
 
                         elif cmd == "absen":
                           if wait["selfbot"] == True:
@@ -3441,7 +3416,6 @@ def bot(op):
                                gs = kk.getGroup(msg.to) 
                                gs = kc.getGroup(msg.to)
                                gs = sw.getGroup(msg.to)
-                               cl.sendMessage(msg.to, None, contentMetadata={"STKID":"24893204","STKPKGID":"1790925","STKVER":"1"}, contentType=7)
                                targets = []
                                for g in gs.members:
                                    if _name in g.displayName:
@@ -3477,7 +3451,6 @@ def bot(op):
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                start = time.time()
-                               cl.sendMessage(msg.to, "[CANNIBAL™️].")
                                elapsed_time = time.time()
                                ki.sendMessage(msg.to, "╚ok╮╗".format(str(elapsed_time)))
                                kk.sendMessage(msg.to, "╚ok╮╗".format(str(elapsed_time)))
@@ -3519,13 +3492,13 @@ def bot(op):
                         elif cmd == "bb":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
-                                ki.sendMessage(msg.to, "[☯️ ok]1")
-                                kk.sendMessage(msg.to, "[☯️ ok]2")
-                                kc.sendMessage(msg.to, "[☯️ ok]3")
-                                kb.sendMessage(msg.to, "[☯️ ok]4")
-                                kd.sendMessage(msg.to, "[☯️ ok]5")
-                                ke.sendMessage(msg.to, "[☯️ ok]6")
-                                kf.sendMessage(msg.to, "[☯️ ok]7")
+                                ki.sendMessage(msg.to, "1อยู่ค่ะ")
+                                kk.sendMessage(msg.to, "2อยู่ค่ะ")
+                                kc.sendMessage(msg.to, "3อยู่ค่ะ")
+                                kb.sendMessage(msg.to, "4อยู่ค่ะ")
+                                kd.sendMessage(msg.to, "5อยู่ค่ะ")
+                                ke.sendMessage(msg.to, "6อยู่ค่ะ")
+                                kf.sendMessage(msg.to, "7อยู่ค่ะ")
 
                         elif cmd == "ดึงคิก":
                           if wait["selfbot"] == True:
