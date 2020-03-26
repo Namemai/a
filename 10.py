@@ -871,7 +871,7 @@ def bot(op):
                 if wait["autoJoin"] == True:
                     if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
                         kf.acceptGroupInvitation(op.param1)
-                        ginfo = kf.getGroup(op.param1))
+                        ginfo = kf.getGroup(op.param1)
                         kf.leaveGroup(op.param1)
                     else:
                         kf.acceptGroupInvitation(op.param1)
